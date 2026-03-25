@@ -154,9 +154,9 @@ Passo 2 (Preço): 50,00 / 0,60 = R$ 83,33
 ## Tecnologia Utilizada:
 1. [NOTEBOOKLM](https://notebooklm.google.com/)
 
-https://github.com/SenirSales/Project_NotebookLM.git
 # Acesso ao projeto:
-<a ref="#https://notebooklm.google.com/notebook/f681224b-de05-454b-8975-2bf4b4349b2e">O Guia para Cálculo de Margem de Lucro e Estratégias de Precificação</a>
+<a href="https://notebooklm.google.com/notebook/
+f681224b-de05-454b-8975-2bf4b4349b2e">O Guia para Cálculo de Margem de Lucro e Estratégias de Precificação</a>
 
 ## Agredecimentos:
 
