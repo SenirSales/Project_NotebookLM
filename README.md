@@ -155,8 +155,8 @@ Passo 2 (Preço): 50,00 / 0,60 = R$ 83,33
 1. [NOTEBOOKLM](https://notebooklm.google.com/)
 
 # Acesso ao projeto:
-<a href="https://notebooklm.google.com/notebook/
-f681224b-de05-454b-8975-2bf4b4349b2e">O Guia para Cálculo de Margem de Lucro e Estratégias de Precificação</a>
+[O Guia para Cálculo de Margem de Lucro e Estratégias de Precificação](https://notebooklm.google.com/notebook/
+f681224b-de05-454b-8975-2bf4b4349b2e)
 
 ## Agredecimentos:
 
