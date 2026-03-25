@@ -21,9 +21,9 @@ Calculando os custos e suas despesas, gerando o preço final do produto.
 - https://www.treasy.com.br/blog/markup/
 - https://blog.emitte.com.br/o-que-e-markup/?utm_source=google&utm_medium=performance-max&utm_campaign=[Performance_Max]_Nacional&gad_source=1&gad_campaignid=15350524272&gbraid=0AAAAAC5kf0ZXE8rBPZ6UUlGYBnMzT17GU&gclid=Cj0KCQjw4PPNBhD8ARIsAMo-iczULKnnAS0ql03M3-D6eG4TXsMhAOu2PyC65Bj4h88MzrUteWYH2bgaAnqaEALw_wcB
 
-### Prompts:
+## Prompts:
  ## O que é o markup?
- Returno:
+
  O **markup** é um índice ou indicador numérico utilizado na gestão financeira para **formar o preço de venda** de produtos e serviços. Ele funciona como um fator que sintetiza, em um único número, a estrutura de custos, as despesas operacionais, os impostos e a margem de lucro desejada.
 
 Abaixo, detalho os principais aspectos desse conceito conforme as fontes:
@@ -49,6 +49,7 @@ A utilização correta do markup oferece **segurança e transparência** nas neg
 Em resumo, o markup indica **quanto o preço de venda está acima dos custos diretos** de produção ou distribuição, sendo uma ferramenta indispensável para a saúde financeira e a competitividade do negócio.
 
 ## Como calcular o markup (Fórmula)?
+
 Para calcular o **markup**, é necessário primeiro identificar os percentuais de despesas e a margem de lucro desejada sobre a venda. Existem duas fórmulas principais: o **Markup Multiplicador** e o **Markup Divisor**.
 
 ### **1. Componentes da Fórmula**
@@ -100,11 +101,57 @@ Suponha um produto com custo de **R$ 100,00** e a seguinte estrutura:
 2.  Preço de Venda: $R\$ 100,00 / 0,55 = \mathbf{R\$ 181,81}$ (a diferença de centavos deve-se ao arredondamento do multiplicador).
 
 
+###  Conceitos Fundamentais:
 
-### Indice
-<a ref="#-">Github do projeto</a>
-<a ref="#-">Github do projeto</a>
-<a ref="#-">Github do projeto</a>
+- Definição: O Markup é um índice (multiplicador ou divisor) aplicado sobre o custo unitário de um produto para definir o preço de venda.
+
+- Objetivo: Cobrir todos os custos (fixos e variáveis) e garantir a margem de lucro desejada.
+
+- Diferença Crucial: Markup 
+ Margem. O Markup é aplicado sobre o custo, enquanto a Margem é calculada sobre o preço de venda.
+
+### Estrutura dos Custos e Despesas:
+Para calcular o Markup, você precisa mapear três variáveis principais (geralmente em percentual):
+
+- Despesas Variáveis (DV): Impostos sobre venda (ICMS, PIS, COFINS), comissões de vendedores e taxas de cartão.
+- Despesas Fixas (DF): Gastos que existem independentemente da venda (aluguel, salários administrativos, internet, luz).
+- Margem de Lucro (L): O quanto você deseja que sobre de lucro líquido após pagar tudo.
+
+### Fórmulas de Cálculo:
+- Markup Divisor (MKD)
+É o mais comum nas fontes do Sebrae e literatura contábil. Ele trabalha com a ideia de que o Preço de Venda é 100%.
+    - Fórmula: MKD = (100 − (DV + DF+L))/100
+    - Como usar: Preço de Venda = Custo do Produto/MKD
+
+- Markup Multiplicador (MKM)
+Ideal para cálculos rápidos no dia a dia.
+    - Fórmula: MKM = 1/MKD
+    - Como usar: Preço de Venda = Custo do Produto X MKM
+
+- Aplicação Prática (Exemplo)
+    - Custo da Mercadoria (CP): R$ 50,00
+    - Despesas Variáveis (DV): 15%
+    - Despesas Fixas (DF): 10%
+    - Lucro Desejado (L): 15%
+
+Passo 1 (MKD): 100 - (15 + 10 + 15) = 60. Logo, 60/100 = 0,60.
+
+Passo 2 (Preço): 50,00 / 0,60 = R$ 83,33
+
+
+# Glossário:
+	Markup: Índice aplicado sobre o custo de um produto ou serviço para determinar seu preço de venda. Ele deve cobrir as despesas (fixas e variáveis) e garantir a margem de lucro desejada.
+	Custo de Mercadoria Vendida (CMV): O valor gasto para produzir ou adquirir o item. É a base sobre a qual o Markup é aplicado.
+	Despesas Fixas (DF): Gastos que não variam com o volume de vendas, como aluguel, salários administrativos e internet. No cálculo do Markup, são expressas em percentual sobre a receita.
+	Despesas Variáveis (DV): Gastos que ocorrem apenas quando há venda, como impostos (ICMS, PIS/COFINS), comissões de vendedores e taxas de cartão.
+	Margem de Lucro (ML): O percentual de lucro líquido esperado sobre o preço de venda após o pagamento de todos os custos e despesas.
+	Preço de Venda: O resultado final da aplicação do Markup sobre o custo unitário.
+	Markup Multiplicador: Um número (ex: 1,5) que, multiplicado pelo custo, resulta no preço de venda.
+	Fórmula: $1 / [1 - (DF + DV + ML)]$ [1, 2, 3, 4, 5] 
+
+
+# Acesso ao projeto:
+<a ref="#-https://notebooklm.google.com/notebook/f681224b-de05-454b-8975-2bf4b4349b2e">O Guia para Cálculo de Margem de Lucro e Estratégias de Precificação</a>
 
 
 Finalidades:
